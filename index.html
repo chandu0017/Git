@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Random Color Generator</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: background 0.4s ease;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            border: 2px solid #333;
+            background-color: white;
+        }
+        span {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>hiii aa</h1>
-    <h1 class="wel">welcome</h1>
-    <p1 id="gan">gandu</p1>
 
-    <h1 id = "display">C</h1>
-    <button onclick="change()">change</button>
-   
-     <script src="Script2.js"> </script>
+  
+    <span id="color-code">#FFFFFF</span>
+    
+  
+    <button onclick ="change() ">Click to Change Color</button>
+
+  
+    <script src="script.js"></script>
 </body>
 </html>
